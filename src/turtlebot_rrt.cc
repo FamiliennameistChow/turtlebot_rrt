@@ -277,6 +277,7 @@ namespace turtlebot_rrt {
 
     // Check if the path between closest_vertex and the new point
     // is safe
+    ROS_DEBUG("Is safe!");
     if (IsSafe(closest_point, proposed_point)) {
       // If safe, add new Vertex to the back of vertex_list_
       turtlebot_rrt::Vertex new_vertex(new_x, new_y, vertex_list_.size(),

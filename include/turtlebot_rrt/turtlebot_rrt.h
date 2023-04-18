@@ -60,6 +60,8 @@
 #include <vector>
 #include <utility>
 #include <boost/random.hpp>
+#include <bits/stdc++.h>
+#include <tf/transform_broadcaster.h>
 
 /** Local includes **/
 #include "turtlebot_rrt/vertex.h"
